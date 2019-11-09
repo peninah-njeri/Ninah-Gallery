@@ -2,6 +2,6 @@ from django.urls import include, path
 from .import views
 
 urlpatterns = [
-    path('',views.welcome,name ='welcome')
+    path('',views.home,name ='gallery-home'),
 
 ]
