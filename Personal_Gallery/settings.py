@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'Personal_Gallery.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Personal_Gallery',
+        'NAME': 'personal_gallery',
         'USER':'pesh',
         'PASSWORD':'peninah',
     }
@@ -108,7 +108,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Africa/Nairobi'
 
 USE_I18N = True
 
