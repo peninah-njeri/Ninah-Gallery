@@ -33,6 +33,11 @@ class Image(models.Model):
     def get_all_images(cls):
         return cls.objects.all()
 
+    @classmethod
+    def filter_images_by_search(cls,search_term):
+        return cls.objects.filter(category__title__icontains=search_term).all()
+
+
 
 
 
