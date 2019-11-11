@@ -10,7 +10,6 @@ class Location(models.Model):
 
 
 
-
 class Category(models.Model):
     title = models.CharField(max_length=30)
 
@@ -28,6 +27,14 @@ class Image(models.Model):
 
     def __str__(self):
         return self.name
+
+    def save_image(self):
+        self.save()  
+
+          
+    def delete_image(self):
+        self.delete 
+
 
     @classmethod
     def get_all_images(cls):

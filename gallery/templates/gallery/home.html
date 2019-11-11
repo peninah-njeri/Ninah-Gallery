@@ -2,6 +2,8 @@
 {%block content%}
 {%if images%}
 <div id="photos" class="m-3">
+    <h2>NINAH'S GALLERY</h2>
+    <P>Search categories: Female-Musicians and Male Musicians</P>
     {% for image in images%}
     <img class="my-1" src="{{image.image.url}}" alt="{{image.name}}" data-toggle="modal"
         data-target="#exampleModalCenter{{image.pk}}">
