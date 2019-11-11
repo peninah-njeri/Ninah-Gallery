@@ -8,6 +8,10 @@ class Location(models.Model):
     def __str__(self):
         return self.name
 
+    def save_location(self):
+        self.save()  
+   
+
 
 
 class Category(models.Model):
@@ -16,7 +20,11 @@ class Category(models.Model):
     def __str__(self):
         return self.title
 
-    
+    def save_title(self):
+        self.save()  
+
+
+
 
 class Image(models.Model):
     image = models.ImageField(upload_to='images_folder')
