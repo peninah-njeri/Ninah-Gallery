@@ -1,51 +1,34 @@
-# [Bran's Gallery](https://gallery23.herokuapp.com/)
-## Bran's Gallery is a web based app where one can view different photos and a description  of these photos.
+# [NINAH'S GALLERY](https://django-gallery.herokuapp.com/)
+## Ninah's gallery is an app that allows users to view different photos and also a description of the same.
 ### Nov 11th, 2019
-#### By **[Brian Omondi](https://github.com/brian23-eng)**
+#### By **[Peninah](https://github.com/peninah-njeri/Ninah-Gallery)**
 
 ## Description
-The Gallery web has different categories with different locations where the photos were shot or taken.
-The different categories include
+The  app has 2 different categories
 
 ```
-1. Food
-2. Photoshop
-3. Art
+1. Female-musicians
+2. Male-musicians
 
 ```
-The user can also find images by location eg.
-
-```
-1. Compton
-2. Nairobi
-3. Turkana
-```
-
 
 ## BDD
 
 | Behavior            | Input                         | Output                        | 
 | ------------------- | ----------------------------- | ----------------------------- |
-| Hover | Hover the cusor over the image| The image changes the color from black and white to colored |
-| Click | Click the image and a modal pops up from the buttom, scroll up | Shows the details of the image eg. title, description and the location shot |
+| Click | Click the image and a modal pops  | Shows the details of the image eg. title, description and the location shot |
 | Search | Search image by category| Takes you to the page where the images by category  are located |
-| Location | Click on the location drop down | Takes the user to the page according to location |
 
-
-## Live link
-
-https://gallery23.herokuapp.com/
 
 ## Set-up and Installation
 
 ### Prerequsites
     - Python 3.6
-    - Ubuntu software
     - Django
 
 ### Clone the Repo
 Run the following command on the terminal:
-`https://github.com/Brian23-eng/Gallery.git`
+`https://github.com/peninah-njeri/Ninah-Gallery`
 
 Install [Postgres](https://www.postgresql.org/download/)
 
@@ -68,20 +51,20 @@ Open the browser on `http://localhost:8000/`
 
 ## Known bugs
 
-```None so far but i'll be glad to be communicated to if there is one ```
+```None so far```
 
 
 ## Technologies used
     - Python 3.6
     - HTML
     - Bootstrap 4
-    - Animate CSS
+    - Custom CSS
     - Heroku
     - Django2
     - Postgresql
 
 ## Support and contact details
-Contact me on b.odhiambo.bo@gmail.com for any comments, reviews or advice.
+Contact me at peninahgathuru@gmail.com
 
 ### License
-Copyright (c) **Brian Omondi**
+Copyright (c) **Peninah**
